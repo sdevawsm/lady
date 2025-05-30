@@ -4,6 +4,12 @@
     "description": "The Lady Application",
     "keywords": ["framework", "lady"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ],
     "require": {
         "php": "^8.1",
         "lady/framework": "dev-main"
