@@ -22,25 +22,6 @@ composer create-project lady/lady nome-do-projeto
   - Tokenizer
   - XML
 
-## Configuração
-
-1. Copie o arquivo `.env.example` para `.env`:
-```bash
-cp .env.example .env
-```
-
-2. Gere a chave da aplicação:
-```bash
-php artisan key:generate
-```
-
-3. Configure o banco de dados no arquivo `.env`
-
-4. Execute as migrações:
-```bash
-php artisan migrate
-```
-
 ## Estrutura do Projeto
 
 ```
